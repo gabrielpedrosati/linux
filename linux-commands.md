@@ -81,6 +81,27 @@
 ```
 - permite buscar padrões em textos usando expressões regulares
 ```
+**chmod**
+```
+- Altera permissões do arquivo
+- Numeric Permissions
+    - 7 - read, write, execute
+    - 6 - read,write
+    - 5 - read, execute
+    - 4 - read
+    - 3 - execute, write
+    - 2 - write
+    - 1 - execute
+    - 0 - no permissions
+- chmod 664 file - permissões de 6 para usuário, 6 para grupo e 4 para todos
+- chmod +x file - adiciona permissão de execução
+```
+**chown**
+```
+- Altera o dono(usuário ou grupo) do arquivo
+- sudo chown :group_name file - muda o grupo do arquivo
+- sudo chown pedrosa file - muda o dono do arquivo para pedrosa
+```
 
 ## Disco
 **df**
