@@ -112,3 +112,9 @@
 ```
 - mostra quanto de espaço um arquivo ou diretório ocupa
 ```
+## Processos
+| Comando | Descrição |
+| --- | --- |
+| ps | lista os processos ativos |
+| kill <id_processo> | mata um processo |
+
